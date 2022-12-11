@@ -1,6 +1,7 @@
 import 'package:electrical_store_app/constants.dart';
 import 'package:electrical_store_app/models/product.dart';
-import 'package:electrical_store_app/widgets/product_card.dart';
+import 'package:electrical_store_app/screens/details_screen.dart';
+import 'package:electrical_store_app/widgets/home/product_card.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,14 @@ class HomeBody extends StatelessWidget {
                     ),
                     ListView.builder(
                       itemCount: products.length,
-                      itemBuilder: (context,index) => ProductCard(itemIndex: index,product: products[index],),
+                      itemBuilder: (context,index) => ProductCard(
+                        itemIndex: index,
+                        product: products[index],
+                        press: (){
+                          Navigator.push(context, MaterialPageRoute(
+                              builder: (context)=> DetailsScreen())
+                          );
+                        },),
                     )
                   ],
                 ))

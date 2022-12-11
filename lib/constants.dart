@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const eBackgroundColor = Colors.white;
+const eBackgroundColor = Color.fromRGBO(233, 233, 233, 1.0);
 const ePrimaryColor = Color.fromRGBO(170, 109, 238,1.0);
 const eSecondaryColor = Color.fromRGBO(252, 251, 99,1.0);
 const eTextColor = Color.fromRGBO(66, 3, 70,1.0);
