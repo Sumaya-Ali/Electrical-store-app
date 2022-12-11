@@ -1,14 +1,14 @@
 class Product {
-  final int? id,price;
-  final String? title,subtitle,desc,image;
+  final int id,price;
+  final String title,subtitle,desc,image;
 
   Product({
-    this.id,
-    this.title,
-    this.subtitle,
-    this.desc,
-    this.price,
-    this.image,
+   required this.id,
+   required this.title,
+   required this.subtitle,
+   required this.desc,
+   required this.price,
+   required this.image,
 });
 }
 

@@ -1,4 +1,5 @@
 import 'package:electrical_store_app/constants.dart';
+import 'package:electrical_store_app/widgets/home_body.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -10,6 +11,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: ePrimaryColor,
       appBar: homeAppBar(),
+      body: HomeBody(),
     );
   }
 
