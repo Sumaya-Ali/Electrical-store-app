@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ali.sumaya.electrical_store_app">
    <application
-        android:label="electrical_store_app"
+        android:label="متجري"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
