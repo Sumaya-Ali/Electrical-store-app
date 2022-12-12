@@ -1,6 +1,12 @@
 # electrical_store_app
 
-A flutter electrical store app
+A flutter electrical store app - support arabic language
+
+![home_screen](https://user-images.githubusercontent.com/52631071/207058066-c32a97d5-a767-443e-9322-ee8d6687f24f.PNG)
+
+
+![details_screen](https://user-images.githubusercontent.com/52631071/207058106-37967f7f-3864-44de-8079-9d1864791e26.PNG)
+
 
 ## Getting Started
 
